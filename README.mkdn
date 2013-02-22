@@ -1,0 +1,26 @@
+# Example output
+(output of `clock -zoom 2`)
+
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+			▀ ▀     ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀     ▀ ▀ 
+			▀ ▀     ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀     ▀ ▀ 
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+	▀ ▀             ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀     ▀ ▀     ▀ ▀ 
+	▀ ▀             ▀ ▀     ▀ ▀     ▀ ▀             ▀ ▀     ▀ ▀     ▀ ▀ 
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+	▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀             ▀ ▀ ▀ ▀ ▀ ▀     ▀ ▀ ▀ ▀ ▀ ▀ 
+
+# Usage
+(output of `clock -h`)
+
+	Usage of bin/clock:
+	  -back="none": set background color
+	  -char="▀ ": set the character(s) to use for drawing
+	  -color="blue": set the digits' color
+	  -redraw=15s: set time to wait between redraws
+	  -version=false: print version information and exit
+	  -x=2: x offset (from left)
+	  -y=1: y offset (from top)
+	  -zoom=1: display digits X times bigger
