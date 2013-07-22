@@ -138,4 +138,6 @@ func main() {
 	}()
 
 	<-csig
+	fmt.Print("\033[2D\033[K")
+	fmt.Println()
 }
